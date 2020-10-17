@@ -1,6 +1,6 @@
 ## Overview
 
-_**laundromutt** An app that efficiently provides a way to catalog dogs that frequent the establishment.  A reward system for the owners/users is recorded based off the washes met to get a free wash.
+**laundromutt** An app that efficiently provides a way to catalog dogs that frequent the establishment.  A reward system for the owners/users is recorded based off the washes met to get a free wash.
 
 <br>
 
