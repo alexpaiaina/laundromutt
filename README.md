@@ -6,30 +6,25 @@
 
 ## MVP
 
-> Creating the ability to search, create, retrieve, update and delete customer's information in order to keep a tidy work environment and workflow.  This ability will free up the employees to attend to other essential tasks by freeing up the need to manually look up client's information through an archaic card file system.  
-
-_The **laundromutte** MVP lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus fermentum risus vitae bibendum. Integer vel ipsum mollis odio sollicitudin ornare eu vel ex. In quis fringilla velit, ac maximus quam. Etiam eget placerat neque. Aenean faucibus sem non nisi lobortis ullamcorper._
+_The **laundromutte**  Creating the ability to search, create, retrieve, update and delete customer's information in order to keep a tidy work environment and workflow.  This ability will free up the employees to attend to other essential tasks by freeing up the need to manually look up client's information through an archaic card file system.  
 
 <br>
 
 ### Goals
 
-- _Lorem ipsum, dolor sit amet,_
-- _consectetur adipiscing elit._
-- _Phasellus dapibus fermentum risus vitae bibendum._
-- _Integer vel ipsum mollis odio sollicitudin ornare eu vel ex._
-- _etc._
+- Build Crud Functionality
+- Authentication for administrative uses
+- Integrate databases and call data successfully on a consistent bases.
+- An easy of use for both the admin and client side to see the information regarding dogs involved.  
 
 <br>
 
 ### Libraries and Dependencies
 
-> Use this section to list all supporting libraries and dependencies, and their role in the project. Below is an example - this needs to be replaced!
-
 |     Library      | Description                                |
 | :--------------: | :----------------------------------------- |
-|      React       | _Lorem ipsum dolor sit amet, consectetur._ |
-|   React Router   | _Lorem ipsum dolor sit amet, consectetur._ |
+|      React       | _useState, useEffect_ |
+|   React Router   | _Route, Link, _ |
 | React SemanticUI | _Lorem ipsum dolor sit amet, consectetur._ |
 |     Express      | _Lorem ipsum dolor sit amet, consectetur._ |
 |  Express Router  | _Lorem ipsum dolor sit amet, consectetur._ |
@@ -94,11 +89,13 @@ src
 
 |  Component   |    Type    | state | props | Description                                                      |
 | :----------: | :--------: | :---: | :---: | :--------------------------------------------------------------- |
-|    Header    | functional |   n   |   n   | _The header will contain the navigation and logo._               |
+|    Header    | functional |   n   |   n   | _The header will contain the navigation and logo_           |
 |  Navigation  | functional |   n   |   n   | _The navigation will provide a link to each of the pages._       |
-|   Gallery    |   class    |   y   |   n   | _The gallery will render the posts using cards in flexbox._      |
+|   Gallery    |   class    |   y   |   n   | _The Gallery will render the posts using cards in flexbox._      |
 | Gallery Card | functional |   n   |   y   | _The cards will render the post info via props._                 |
-|    Footer    | functional |   n   |   n   | _The footer will show info about me and a link to my portfolio._ |
+| Search       | functional |   n   |   y   | _Search results will bring up Gallery Card           |
+| Admin/Login  | functional |   n   |   y   | _        |
+|    Footer    | functional |   n   |   n   | _The footer will show info contact information and an about page |
 
 #### Time Estimates
 
@@ -106,14 +103,14 @@ src
 
 | Task                | Priority | Estimated Time | Time Invested | Actual Time |
 | ------------------- | :------: | :------------: | :-----------: | :---------: |
-| Add Contact Form    |    L     |     3 hrs      |     ? hrs     |     TBD     |
-| Create CRUD Actions |    H     |     3 hrs      |     ? hrs     |     TBD     |
+| Add Client Form    |    L     |     4 hrs      |     ? hrs     |     TBD     |
+| Create CRUD Actions |    H     |     5 hrs      |     ? hrs     |     TBD     |
 | CSS                 |    H     |     8 hrs      |     ? hrs     |     TBD     |
-| Create CRUD Actions |    H     |     3 hrs      |     ? hrs     |     TBD     |
-| Create CRUD Actions |    H     |     3 hrs      |     ? hrs     |     TBD     |
-| Create CRUD Actions |    H     |     3 hrs      |     ? hrs     |     TBD     |
-| Create CRUD Actions |    H     |     3 hrs      |     ? hrs     |     TBD     |
-| Create CRUD Actions |    H     |     3 hrs      |     ? hrs     |     TBD     |
+| Components          |    H     |     12hrs      |     ? hrs     |     TBD     |
+| Authentication      |    H     |     3 hrs      |     ? hrs     |     TBD     |
+| Carousel            |    H     |     3 hrs      |     ? hrs     |     TBD     |
+| Reward Display Sys  |    H     |     8 hrs      |     ? hrs     |     TBD     |
+|  |    H     |     3 hrs      |     ? hrs     |     TBD     |
 
 | TOTAL               |          |     6 hrs      |     3 hrs     |     TBD     |
 
@@ -125,7 +122,7 @@ src
 
 #### ERD Model
 
-> Use this section to display an image of a computer generated ERD model. You can use draw.io, Lucidchart or another ERD tool.
+> lucidcharts - https://lucid.app/invitations/accept/0ce30e7d-5eca-4c07-b821-39b2210ea56f
 
 <br>
 
@@ -133,8 +130,9 @@ src
 
 ## Post-MVP
 
-I want to include a carousel in the front page.
 Include user login access so clothing can be arranged for pick up or delivery.
+Users could also change profile pics for pet.
+Leave any grievances in comment form of an event positive or negative they experienced so business may address accordingly.
 
 ## Code Showcase
 
