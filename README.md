@@ -1,14 +1,14 @@
 ## Overview
 
-**laundromutt** An app that efficiently provides a way to catalog dogs that frequent the establishment.  A reward system for the owners/users is recorded based off the washes met to get a free wash.
+**laundromutt** An app that efficiently provides a way to catalog dogs that frequent the establishment.  A reward system for the pet owners are recorded based off the amount of washes met to get a free wash. Utilization of landromutt's dog washing facility will eventually led to a 1 free wash after 8 uses.
 
 <br>
 
 ## MVP
 
-> The Minimum Viable Product should be a well-planned, easily-communicated product, ensuring that the client's deliverable will be achievable and meet specifications within the time frame estimated.
+> Creating the ability to search, create, retrieve, update and delete customer's information in order to keep a tidy work environment and workflow.  This ability will free up the employees to attend to other essential tasks by freeing up the need to manually look up client's information through an archaic card file system.  
 
-_The **Project Title** MVP lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus fermentum risus vitae bibendum. Integer vel ipsum mollis odio sollicitudin ornare eu vel ex. In quis fringilla velit, ac maximus quam. Etiam eget placerat neque. Aenean faucibus sem non nisi lobortis ullamcorper._
+_The **laundromutte** MVP lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus fermentum risus vitae bibendum. Integer vel ipsum mollis odio sollicitudin ornare eu vel ex. In quis fringilla velit, ac maximus quam. Etiam eget placerat neque. Aenean faucibus sem non nisi lobortis ullamcorper._
 
 <br>
 
