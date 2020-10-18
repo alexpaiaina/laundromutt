@@ -23,9 +23,9 @@ _The **laundromutte**  Creating the ability to search, create, retrieve, update 
 
 |     Library      | Description                                |
 | :--------------: | :----------------------------------------- |
-|      React       | _useState, useEffect_ |
-|   React Router   | _Route, Link, _ |
-| React SemanticUI | _Lorem ipsum dolor sit amet, consectetur._ |
+|      React       | _useState, useEffect_                      |
+|   React Router   | _Route, Link, _                            |
+|    Gemfile       | _gem_jwt_                                  |
 |     Express      | _Lorem ipsum dolor sit amet, consectetur._ |
 |  Express Router  | _Lorem ipsum dolor sit amet, consectetur._ |
 
@@ -67,7 +67,6 @@ Whimsical-https://whimsical.com/LDG8sZUQXZnPBfK9ENL6gt
 
 #### Component Hierarchy
 
-> Use this section to define your React components and the data architecture of your app. This should be a reflection of how you expect your directory/file tree to look like. 
 
 ``` structure
 
@@ -78,28 +77,27 @@ src
       |__ images
       |__ mockups
 |__ components/
-      |__ Header.jsx
+      |__ Layout
+            |__Header.jsx
+            |__Footer.jsx
 |__ services/
 
 ```
 
 #### Component Breakdown
 
-> Use this section to go into further depth regarding your components, including breaking down the components as stateless or stateful, and considering the passing of data between those components.
-
 |  Component   |    Type    | state | props | Description                                                      |
 | :----------: | :--------: | :---: | :---: | :--------------------------------------------------------------- |
-|    Header    | functional |   n   |   n   | _The header will contain the navigation and logo_           |
+|    Header    | functional |   n   |   n   | _The header will contain the navigation and logo_                |
 |  Navigation  | functional |   n   |   n   | _The navigation will provide a link to each of the pages._       |
 |   Gallery    |   class    |   y   |   n   | _The Gallery will render the posts using cards in flexbox._      |
 | Gallery Card | functional |   n   |   y   | _The cards will render the post info via props._                 |
-| Search       | functional |   n   |   y   | _Search results will bring up Gallery Card           |
-| Admin/Login  | functional |   n   |   y   | _        |
-|    Footer    | functional |   n   |   n   | _The footer will show info contact information and an about page |
+| Search       | functional |   n   |   y   | _Search results will bring up Gallery Card_                      |
+| Admin/Login  | functional |   n   |   y   | _Authentication and verification of admin user_                  |
+| Form         | functional |   n   |   y   | _Form responsible for create, update and delete_                 |
+|    Footer    | functional |   n   |   n   | _The footer will show info contact information and an about page_|
 
 #### Time Estimates
-
-> Use this section to estimate the time necessary to build out each of the components you've described above.
 
 | Task                | Priority | Estimated Time | Time Invested | Actual Time |
 | ------------------- | :------: | :------------: | :-----------: | :---------: |
