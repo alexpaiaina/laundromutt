@@ -37,35 +37,34 @@ _The **laundromutt**  Creating the ability to search, create, retrieve, update a
 
 #### Wireframes
 
-Whimsical-https://whimsical.com/LDG8sZUQXZnPBfK9ENL6gt
 
-![https://wireframe.cc/vqNuB4](url)
+![https://whimsical.com/PUFhhYpPGrDBWqbANwQHHp](url)
 
 - Desktop Landing
 
-![Dummy Link](url)
+![https://whimsical.com/PUFhhYpPGrDBWqbANwQHHp](url)
 
 - Desktop Hero
 
-![Dummy Link](url)
+![https://whimsical.com/PUFhhYpPGrDBWqbANwQHHp](url)
 
-- Resource Index
+- Admin/Login
 
-![Dummy Link](url)
+![https://whimsical.com/PUFhhYpPGrDBWqbANwQHHp](url)
 
-- Resource Show
+- Forms
 
-![Dummy Link](url)
+![https://whimsical.com/PUFhhYpPGrDBWqbANwQHHp](url)
 
-- Tablet Resource Index
+- Dog Gallery
 
-![Dummy Link](url)
+![https://whimsical.com/PUFhhYpPGrDBWqbANwQHHp](url)
 
-- Mobile Resource Index
+- 
 
 #### Component Tree
 
-> Use this section to display the structure of how your React components are being rendered. This should show the parent to child relation between you components. In other words, show which components are rendering the other components. 
+>  Whimsical-https://whimsical.com/LDG8sZUQXZnPBfK9ENL6gt
 
 #### Component Hierarchy
 
@@ -82,7 +81,20 @@ src
       |__ Layout
             |__Header.jsx
             |__Footer.jsx
+      |__ DogCard
+            |__DogCard.jsx
+      |__ Form
+            |__Form.jsx
+      |__ Login
+            |__Login.jsx
+      |__ Search
+            |__Search.jsx
 |__ services/
+      |__ api-helper.js
+      |__ auth.js
+      |__ clients.js
+      |__ dogs.js
+|__ App.js
 
 ```
 
@@ -94,9 +106,9 @@ src
 |  Navigation  | functional |   n   |   n   | _The navigation will provide a link to each of the pages._       |
 |   Gallery    |   class    |   y   |   n   | _The Gallery will render the posts using cards in flexbox._      |
 | Gallery Card | functional |   n   |   y   | _The cards will render the post info via props._                 |
-| Search       | functional |   n   |   y   | _Search results will bring up Gallery Card_                      |
-| Admin/Login  | functional |   n   |   y   | _Authentication and verification of admin user_                  |
-| Form         | functional |   n   |   y   | _Form responsible for create, update and delete_                 |
+| Search       | functional |   y   |   y   | _Search results will bring up Gallery Card_                      |
+| Admin/Login  | functional |   y   |   y   | _Authentication and verification of admin user_                  |
+| Form         | functional |   y   |   y   | _Form responsible for create, update and delete_                 |
 |    Footer    | functional |   n   |   n   | _The footer will show info contact information and an about page_|
 
 #### Time Estimates
