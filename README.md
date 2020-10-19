@@ -6,7 +6,7 @@
 
 ## MVP
 
-_The **laundromutte**  Creating the ability to search, create, retrieve, update and delete customer's information in order to keep a tidy work environment and workflow.  This ability will free up the employees to attend to other essential tasks by freeing up the need to manually look up client's information through an archaic card file system.  
+_The **laundromutt**  Creating the ability to search, create, retrieve, update and delete customer's information in order to keep a tidy work environment and workflow.  This ability will free up the employees to attend to other essential tasks by freeing up the need to manually look up client's information through an archaic card file system.  
 
 <br>
 
@@ -23,11 +23,13 @@ _The **laundromutte**  Creating the ability to search, create, retrieve, update 
 
 |     Library      | Description                                |
 | :--------------: | :----------------------------------------- |
-|      React       | _useState, useEffect_                      |
-|   React Router   | _Route, Link, _                            |
-|    Gemfile       | _gem_jwt_                                  |
-|     Express      | _Lorem ipsum dolor sit amet, consectetur._ |
-|  Express Router  | _Lorem ipsum dolor sit amet, consectetur._ |
+|      React       | _Library for front development._           |
+|   React Router   | _For routing on the front-end_             |
+|    Gemfile       | _Authentication process_                   |
+|     PSQL         | _Relational Database_                      |
+|     Rack Cors    | _Cross-origin resource sharing_            |
+|     Rails        | _Back-end framework_                       |
+|     Axios        | _HTTP client to perform request_           |
 
 <br>
 
@@ -37,7 +39,7 @@ _The **laundromutte**  Creating the ability to search, create, retrieve, update 
 
 Whimsical-https://whimsical.com/LDG8sZUQXZnPBfK9ENL6gt
 
-![Dummy Link](url)
+![https://wireframe.cc/vqNuB4](url)
 
 - Desktop Landing
 
