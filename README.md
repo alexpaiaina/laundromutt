@@ -38,7 +38,7 @@ _The **laundromutt**  Creating the ability to search, create, retrieve, update a
 #### Wireframes
 
 
-! https://whimsical.com/PUFhhYpPGrDBWqbANwQHHp(url)
+! https://whimsical.com/PUFhhYpPGrDBWqbANwQHHp
 
 - Desktop Landing
 
