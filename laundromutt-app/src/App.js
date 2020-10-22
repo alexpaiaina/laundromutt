@@ -1,7 +1,8 @@
 import React, { useEffect } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import { getAllClients } from './services/clients';
+import { Route } from 'react-router-dom';
+import Layout from ''
 
 function App() {
   useEffect(() => async () => {
@@ -12,9 +13,15 @@ function App() {
     getClients();
   }, []);
   return (
-    <div className="App">
-
-    </div>
+    <Layout>
+      <Routh path='/login'>
+        <Login path={auth/login} />
+      </Routh>
+      <Route path='/login' component={Login} />
+      <Route path='/login' render={(props) => (
+        <Login path={auth/login} {...props} />
+      )} />
+    </Layout>
   );
 }
 
