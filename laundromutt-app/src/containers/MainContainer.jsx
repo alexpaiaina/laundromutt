@@ -4,9 +4,9 @@ import { getAllClients, postClient, putClient } from '../services/clients';
 import { Route, Switch, useHistory } from 'react-router-dom';
 import Dogs from '../screens/dogsearch/DogSearch';
 import Clients from '../screens/Clients';
-import ClientCreate from '../components/ClientCreate';
-import ClientEdit from '../components/ClientEdit';
-import ClientDetail from '../components/ClientDetail';
+import ClientCreate from '../components/ClientCreate/ClientCreate';
+import ClientEdit from '../components/ClientEdit/ClientEdit';
+import ClientDetail from '../components/ClientDetail/ClientDetail';
 
 export default function MainContainer() {
   const [clients, setClients] = useState([]);

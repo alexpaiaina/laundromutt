@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 
-import { addDog, getOneClient } from '../services/clients';
+import { addDog, getOneClient } from '../../services/clients';
 
 export default function FoodDetail(props) {
   const [food, setFood] = useState(null);
