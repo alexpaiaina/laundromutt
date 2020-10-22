@@ -2,11 +2,11 @@ import React, { useState, useEffect } from 'react'
 import { getAllDogs } from '../services/dogs';
 import { getAllClients, postClient, putClient } from '../services/clients';
 import { Route, Switch, useHistory } from 'react-router-dom';
-import Dogs from '../screens/Dogs';
+import Dogs from '../screens/dogsearch/DogSearch';
 import Clients from '../screens/Clients';
-import ClientCreate from '../screens/ClientCreate';
-import ClientEdit from '../screens/ClientEdit';
-import ClientDetail from '../screens/ClientDetail';
+import ClientCreate from '../components/ClientCreate';
+import ClientEdit from '../components/ClientEdit';
+import ClientDetail from '../components/ClientDetail';
 
 export default function MainContainer() {
   const [clients, setClients] = useState([]);

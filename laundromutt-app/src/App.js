@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import './App.css';
 import { getAllClients } from './services/clients';
-import Login from './screens/Login';
+import Login from './screens/login/Login';
 import Header from './layout/header/Header';
 import Footer from './layout/footer/Footer';
 
