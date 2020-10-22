@@ -20,13 +20,13 @@ export default function scratch() {
   return (
     <form>
       <label> username
-        <input type="text" name="username" value={FormData, username} onChange={handleChange} />
+        <input type="text" name="username" value={formData.username} onChange={handleChange} />
       </label>
       <label> email
-        <input type="text" name="email" value={FormData, email} onChange={handleChange} />
+        <input type="text" name="email" value={formData.email} onChange={handleChange} />
       </label>
       <label> password
-        <input type="password" name="password" value={FormData, password} onChange={handleChange} />
+        <input type="password" name="password" value={formData.password} onChange={handleChange} />
       </label>
       <input />
       <input />

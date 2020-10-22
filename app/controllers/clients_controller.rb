@@ -10,12 +10,13 @@ class ClientsController < ApplicationController
 
   # GET /clients/1
   def show
-    render json: @client
+    render json: @client, include; :dog_name
   end
 
   # POST /clients
   def create
     @client = Client.new(client_params)
+    @client.user = @c
 
     if @client.save
       render json: @client, status: :created
@@ -38,6 +39,13 @@ class ClientsController < ApplicationController
     @client.destroy
   end
 
+  def add_dog
+    @client = Client.find(params[:id])
+    @dog = Dog.find(params[:dogs/:id])
+    @client.dogs << @dog
+
+    render json: @client, include: :dogs
+  end
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_client
