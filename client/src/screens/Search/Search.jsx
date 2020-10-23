@@ -1,7 +1,7 @@
 import React from "react";
-import Layout from "../shared/Layout/Layout";
-import Dog from "../Candy/Candy";
-import Sort from "../Sort/Sort";
+// import Layout from "../shared/Layout/Layout";
+import Dog from "../../components/Dog/Dog";
+import Sort from "../../components/Sort/Sort";
 
 const SearchResults = (props) => {
   const dogs =
@@ -21,20 +21,20 @@ const SearchResults = (props) => {
 
   return (
     <>
-      <Layout
+      {/* <Layout
         handleSearch={props.handleSearch}
         setQueryResults={props.setQueryResults}
-      >
+      > */}
         <div className="results-container">
           <h3>Search Results</h3>
           <Sort
             handleSort={props.handleSort}
             setQueriedCandy={props.setQueriedDog}
           />
-          {console.log(dogs)}
-          {productsJSX}
+          {/* {console.log(dogs)}
+          {productsJSX} */}
         </div>
-      </Layout>
+      {/* </Layout> */}
     </>
   );
 };

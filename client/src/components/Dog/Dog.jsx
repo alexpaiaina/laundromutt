@@ -23,7 +23,7 @@ const Dog = (props) => {
         onMouseLeave={() => setIsHovered(false)}
       >
         <div className="dog-imgdiv">
-          <DogPhotoDiv className="dog-photo" photo={props.photo}>
+          {/* <DogPhotoDiv className="dog-photo" photo={props.photo}>
             {isHovered && (
               <div className="edit-delete-buttons">
                 <button onClick={() => {
@@ -36,7 +36,7 @@ const Dog = (props) => {
                 }}>Delete</button>
               </div>
             )}
-          </DogPhotoDiv>
+          </DogPhotoDiv> */}
         </div>
         <div className="dog-each-name">{props.dog_name}</div>
         <div className="dog-each-breed">{`$${props.breed}`}</div>

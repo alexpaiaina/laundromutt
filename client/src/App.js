@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import './App.css';
 import { getAllClients } from './services/clients';
 import Login from './screens/login/Login';
@@ -41,23 +41,25 @@ function App() {
   }
 
   return (
-    <Layout
+    <div>
+    {/* <Layout
       currentUser={currentUser}
       handleLogout={handleLogout}
-    >
+    > */}
       <Switch>
         <Route path='/login'>
           <Login handleLogin={handleLogin} />
         </Route>
-        <Route path='/register'>
+        {/* <Route path='/register'>
           <Register handleRegister={handleRegister} />
-        </Route>
+        </Route> */}
         <Route path='/'>
           <MainContainer />
         </Route>
       </Switch>
 
-    </Layout>
+      {/* </Layout> */}
+    </div>
   );
 }
 

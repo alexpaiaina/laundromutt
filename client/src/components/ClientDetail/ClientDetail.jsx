@@ -3,10 +3,10 @@ import { useParams } from 'react-router-dom';
 
 import { addDog, getOneClient } from '../../services/clients';
 
-export default function FoodDetail(props) {
-  const [food, setFood] = useState(null);
-  const [flavorId, setFlavorId] = useState('')
-  const { flavors } = props;
+export default function ClientDetail(props) {
+  const [client, setClient] = useState(null);
+  const [dogId, setDogId] = useState('')
+  const { dogs } = props;
  
   const { id } = useParams();
 

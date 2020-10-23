@@ -6,9 +6,10 @@ export default function Edit(props) {
     name: "",
     email: "",
     dog_name: "",
-    phone: "",
+    phone: ""
 
   })
+  const { name, email, dog_name, phone } = formData
   const { handleClientEdit, clients } = props;
   const { id } = useParams();
 

@@ -9,8 +9,8 @@ export const getOneDog = async (id) => {
   const resp = await api.get(`/dogs/${id}`);
 }
 
-export const postDog = async (clientData) => {
-  const resp = await api.post('/clients', {dog: dogData});
+export const postDog = async (dogData) => {
+  const resp = await api.post('/dogs', {dog: dogData});
   return resp.data;
 }
 

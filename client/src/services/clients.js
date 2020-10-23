@@ -25,6 +25,6 @@ export const destroyClient = async (id) => {
 }
 
 export const addDog = async(clientId, DogId) => {
-  const resp = await api.put(`/flavors/${DogId}/clients/${clientId}`);
+  const resp = await api.put(`/dogs/${DogId}/clients/${clientId}`);
   return resp.data;
 }
