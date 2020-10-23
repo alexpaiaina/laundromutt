@@ -1,6 +1,6 @@
 class ClientsController < ApplicationController
   before_action :set_client, only: [:show, :update, :destroy]
-  before_action :authorize_request, only: [:create, :update, :destroy]
+  # before_action :authorize_request, only: [:create, :update, :destroy]
   # GET /clients
   def index
     @clients = Client.all
@@ -10,7 +10,7 @@ class ClientsController < ApplicationController
 
   # GET /clients/1
   def show
-    render json: @client, include; :dog_name
+    render json: @client, include: :dog_name
   end
 
   # POST /clients

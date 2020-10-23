@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
   post '/auth/login', to: 'authentication#login'
   get '/auth/verify', to: 'authentication#verify'
-  put '/dogs/:dog_name/clients/:id', to: 'clients#add_dog'
-  resources :users, only: :create
+  
+  resources :users
 
   resources :dogs
   resources :clients
