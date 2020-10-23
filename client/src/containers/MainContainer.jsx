@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { getAllDogs } from '../services/dogs';
 import { getAllClients, postClient, putClient } from '../services/clients';
 import { Route, Switch, useHistory } from 'react-router-dom';
-import Dogs from '../screens/search/Search';
+import Dogs from '../screens/dogsearch/DogSearch';
 // import Clients from '../screens/Clients';
 import ClientCreate from '../components/ClientCreate/ClientCreate';
 import ClientEdit from '../components/ClientEdit/ClientEdit';
